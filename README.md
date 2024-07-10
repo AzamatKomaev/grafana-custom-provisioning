@@ -8,7 +8,7 @@ My own dashboard to explore Kubernetes resources. It uses
 metrics from Prometheus and kube-stat-metrics as metircs exporter. It also has panel to watch logs of container via Loki datasource.
 
 ### Yandex.Cloud
-If you don't want to use Yandex Monitoring to monitor your cloud resources you can configure cloud to send metrics to your own Prometheus instance: https://yandex.cloud/en/docs/monitoring/operations/metric/prometheusExport
+If you don't want to use Yandex Monitoring to monitor your cloud resources you can configure cloud to share metrics with your own Prometheus instance: https://yandex.cloud/en/docs/monitoring/operations/metric/prometheusExport
 - <b>yandex_cloud/yandex-certificates.json</b> <br>
 Dashboard to explore Certificate Manager. It has two panels: certificates' expiriation and out of order certificates. So you can create alerts based on these panels.
 
